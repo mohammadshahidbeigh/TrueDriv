@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  margin-left: 6%;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.custom-navbar {
+  border: 2px solid gainsboro; /* Adjust thickness and color as needed */
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  margin-right: 4%;
+}
+
+.navbar-nav .nav-item {
+  padding-right: 20px; /* Adjust the value as needed */
+}
+
+.active-nav-link {
+  color: #2a9d8f !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+}
+.container h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+.footer img {
+  height: 50px;
+}
+
+.custom-outline-success {
+  color: #2a9d8f;
+  border-color: #2a9d8f;
+}
+.custom-outline-success:hover {
+  background-color: #2a9d8f;
+  color: white;
+}
+.custom-success {
+  background-color: #2a9d8f;
+  border-color: #2a9d8f;
+}
+.custom-success:hover {
+  background-color: #248f7b;
+  border-color: #248f7b;
+}
