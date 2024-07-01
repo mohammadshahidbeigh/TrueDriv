@@ -45,19 +45,42 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Vehicle Status</a>
+              <a class="nav-link black-link" href="#">Vehicle Status</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tools</a>
+              <a class="nav-link black-link" href="#">Tools</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">DMV Cheatsheet</a>
+              <a class="nav-link black-link" href="#">DMV Cheatsheet</a>
+            </li>
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link black-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQ's</a>
+              <a class="nav-link black-link" href="#">FAQ's</a>
             </li>
           </ul>
           <button
@@ -77,68 +100,66 @@
     </nav>
 
     <!-- Main Content -->
-    <div class="container text-center mt-5">
-      <h1>Get vehicle report That You can trust</h1>
-      <p>Accidents - Problem Check - Title Record - Recalls - Values - Specs</p>
+    <div class="container text-center main-content">
+      <div class="image">
+        <img src="/left-car.png" class="image-left" alt="Left Car Image" />
+      </div>
+      <div class="content">
+        <h1>
+          Get vehicle <span class="highlight">report</span> That<br />
+          You can trust
+        </h1>
+        <p class="mt-4"></p>
+        <p>
+          Accidents - Problem Check - Title Record - Recalls - Values - Specs
+        </p>
 
-      <div class="row mt-4">
-        <div class="col-md-6">
-          <img
-            src="https://example.com/car-image.jpg"
-            class="img-fluid"
-            alt="Car Image"
-          />
-        </div>
-        <div class="col-md-6">
-          <div class="input-group mb-3">
-            <div
-              class="btn-group"
-              role="group"
-              aria-label="VIN or License Plate"
-            >
-              <input
-                type="radio"
-                class="btn-check"
-                name="vinOrLicense"
-                id="vinNumber"
-                autocomplete="off"
-                checked
-              />
-              <label class="btn btn-outline-secondary" for="vinNumber"
-                >VIN Number</label
-              >
-
-              <input
-                type="radio"
-                class="btn-check"
-                name="vinOrLicense"
-                id="licensePlate"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary" for="licensePlate"
-                >License Plate</label
-              >
-            </div>
+        <div class="input-group mb-3">
+          <div class="btn-group" role="group" aria-label="VIN or License Plate">
             <input
-              type="text"
-              class="form-control"
-              placeholder="Enter VIN Number"
-              aria-label="Enter VIN Number"
+              type="radio"
+              class="btn-check"
+              name="vinOrLicense"
+              id="vinNumber"
+              autocomplete="off"
+              checked
             />
-            <button class="btn btn-outline-secondary" type="button">
-              Search
-            </button>
+            <label class="btn btn-outline-secondary" for="vinNumber"
+              >VIN Number</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="vinOrLicense"
+              id="licensePlate"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-secondary" for="licensePlate"
+              >License Plate</label
+            >
           </div>
-          <button class="btn btn-primary">View Sample Report</button>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter VIN Number"
+            aria-label="Enter VIN Number"
+          />
+          <button class="btn btn-outline-secondary" type="button">
+            Search
+          </button>
+        </div>
+        <button class="btn btn-primary">View Sample Report</button>
+
+        <div class="mt-5">
+          <h5>Trusted By</h5>
+          <img src="https://example.com/nmvtis-logo.png" alt="NMVTIS Logo" />
         </div>
       </div>
-
-      <div class="mt-5">
-        <h5>Trusted By</h5>
-        <img src="https://example.com/nmvtis-logo.png" alt="NMVTIS Logo" />
+      <div class="image">
+        <img src="/right-car.png" class="img-fluid" alt="Right Car Image" />
       </div>
     </div>
-
     <!-- Footer -->
     <footer class="text-center mt-5">
       <p>As Featured In:</p>

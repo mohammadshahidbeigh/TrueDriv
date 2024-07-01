@@ -16,6 +16,10 @@ body {
   font-weight: bold;
 }
 
+.black-link {
+  color: black !important;
+}
+
 .navbar-collapse {
   margin-right: 4%;
 }
@@ -32,7 +36,33 @@ body {
 .container h1 {
   font-size: 2.5em;
   font-weight: bold;
+}
+
+.highlight {
   color: #2a9d8f;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.main-content .image {
+  flex: 1;
+  max-width: 200px; /* Adjust the size as needed */
+}
+.main-content .content {
+  flex: 2;
+  text-align: center;
+}
+
+.image-left {
+  position: absolute;
+  left: 0;
+  top: 200px; /* Adjust the top position as needed */
+  max-width: 300px; /* Adjust the size as needed */
+  z-index: -1; /* Ensure it stays in the background */
 }
 
 .footer img {
