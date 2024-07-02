@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f0f0f0;
 }
 
@@ -142,4 +142,34 @@ footer {
 
 .footer-logos img {
   margin: 0 15px;
+}
+
+a:focus,
+button:focus {
+  outline: 2px dashed #2a9d8f;
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .image-left,
+  .image-right {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  .trusted-logo,
+  .client-logo {
+    margin: 10px auto;
+  }
+
+  .trusted-text {
+    margin-right: 0;
+  }
 }
