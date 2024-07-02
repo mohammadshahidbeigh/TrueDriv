@@ -154,6 +154,10 @@ button:focus {
     flex-direction: column;
   }
 
+  body {
+    width: fit-content;
+  }
+
   .image-left,
   .image-right {
     position: relative;
