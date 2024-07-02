@@ -54,7 +54,7 @@ body {
 .image-left,
 .image-right {
   position: absolute;
-  top: 120px;
+  top: 10rem;
   max-width: 300px;
   z-index: -1;
   border-radius: 20px;
