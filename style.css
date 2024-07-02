@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
 }
 
 .navbar-brand {
@@ -60,13 +61,19 @@ body {
 .image-left {
   position: absolute;
   left: 0;
-  top: 200px; /* Adjust the top position as needed */
+  top: 120px; /* Adjust the top position as needed */
   max-width: 300px; /* Adjust the size as needed */
   z-index: -1; /* Ensure it stays in the background */
+  border-radius: 0 20px 20px 0;
 }
 
-.footer img {
-  height: 50px;
+.image-right {
+  position: absolute;
+  right: 0;
+  top: 120px; /* Adjust the top position as needed */
+  max-width: 300px; /* Adjust the size as needed */
+  z-index: -1; /* Ensure it stays in the background */
+  border-radius: 20px 0 0 20px;
 }
 
 .custom-outline-success {
@@ -84,4 +91,62 @@ body {
 .custom-success:hover {
   background-color: #248f7b;
   border-color: #248f7b;
+}
+
+.input-group .form-control,
+.input-group .btn {
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.btn-outline-secondary {
+  border-color: #00a794;
+  color: #00a794;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #00a794;
+  color: black;
+}
+
+.btn-primary {
+  background-color: #00a794;
+  border-color: #00a794;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.trusted-text {
+  font-style: italic;
+  font-size: smaller;
+  margin-right: 35%;
+}
+
+.trusted-logo {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Maintains aspect ratio */
+  max-width: 100%; /* Ensures the image is responsive */
+}
+
+.client-logo {
+  margin-left: 16%;
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Maintains aspect ratio */
+  max-width: 100%; /* Ensures the image is responsive */
+}
+
+footer {
+  background-color: white; /* light gray */
+  padding: 20px;
+}
+
+.featured-title {
+  font-size: 2.5rem; /* Adjust the size to match the main heading */
+  font-weight: bold;
+  color: #333; /* Same color as the main heading */
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.footer-logos img {
+  margin: 0 15px; /* Adjust spacing between logos */
 }
