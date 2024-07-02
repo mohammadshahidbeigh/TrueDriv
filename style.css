@@ -10,7 +10,7 @@ body {
 }
 
 .custom-navbar {
-  border: 2px solid gainsboro; /* Adjust thickness and color as needed */
+  border: 2px solid gainsboro;
 }
 
 .nav-item {
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar-nav .nav-item {
-  padding-right: 20px; /* Adjust the value as needed */
+  padding-right: 20px;
 }
 
 .active-nav-link {
@@ -34,6 +34,7 @@ body {
   text-decoration: underline !important;
   text-decoration-thickness: 2px !important;
 }
+
 .container h1 {
   font-size: 2.5em;
   font-weight: bold;
@@ -49,30 +50,23 @@ body {
   align-items: center;
   margin-top: 50px;
 }
-.main-content .image {
-  flex: 1;
-  max-width: 200px; /* Adjust the size as needed */
-}
-.main-content .content {
-  flex: 2;
-  text-align: center;
+
+.image-left,
+.image-right {
+  position: absolute;
+  top: 120px;
+  max-width: 300px;
+  z-index: -1;
+  border-radius: 20px;
 }
 
 .image-left {
-  position: absolute;
   left: 0;
-  top: 120px; /* Adjust the top position as needed */
-  max-width: 300px; /* Adjust the size as needed */
-  z-index: -1; /* Ensure it stays in the background */
   border-radius: 0 20px 20px 0;
 }
 
 .image-right {
-  position: absolute;
   right: 0;
-  top: 120px; /* Adjust the top position as needed */
-  max-width: 300px; /* Adjust the size as needed */
-  z-index: -1; /* Ensure it stays in the background */
   border-radius: 20px 0 0 20px;
 }
 
@@ -80,14 +74,17 @@ body {
   color: #2a9d8f;
   border-color: #2a9d8f;
 }
+
 .custom-outline-success:hover {
   background-color: #2a9d8f;
   color: white;
 }
+
 .custom-success {
   background-color: #2a9d8f;
   border-color: #2a9d8f;
 }
+
 .custom-success:hover {
   background-color: #248f7b;
   border-color: #248f7b;
@@ -119,34 +116,30 @@ body {
 .trusted-text {
   font-style: italic;
   font-size: smaller;
-  margin-right: 35%;
+  margin-right: 30%;
 }
 
-.trusted-logo {
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Maintains aspect ratio */
-  max-width: 100%; /* Ensures the image is responsive */
-}
-
+.trusted-logo,
 .client-logo {
-  margin-left: 16%;
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Maintains aspect ratio */
-  max-width: 100%; /* Ensures the image is responsive */
+  width: 100px;
+  height: 100px;
+  max-width: 100%;
+  margin-right: 6%;
+  margin-left: 6%;
 }
 
 footer {
-  background-color: white; /* light gray */
+  background-color: white;
   padding: 20px;
 }
 
 .featured-title {
-  font-size: 2.5rem; /* Adjust the size to match the main heading */
+  font-size: 2rem;
   font-weight: bold;
-  color: #333; /* Same color as the main heading */
-  margin-bottom: 20px; /* Adjust spacing as needed */
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .footer-logos img {
-  margin: 0 15px; /* Adjust spacing between logos */
+  margin: 0 15px;
 }
