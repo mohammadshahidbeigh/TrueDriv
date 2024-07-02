@@ -172,4 +172,29 @@ button:focus {
   .trusted-text {
     margin-right: 0;
   }
+
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .col-md-4,
+  footer .col-md-8 {
+    margin-bottom: 20px;
+  }
+  footer {
+    background-color: white;
+    padding: 5px;
+  }
+  .footer-logos {
+    justify-content: flex-start;
+  }
+
+  .featured-title {
+    font-size: 1.5rem;
+  }
+
+  .footer-logos img {
+    margin: 5px;
+  }
 }
